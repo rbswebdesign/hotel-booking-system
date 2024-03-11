@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Management System</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+    <h1>Hotel Booking Management System</h1>
+    <div class="main">
+        <div class="container">
+            <div class="card" style="background-image: url('https://htl-img-res-new.s3.ap-south-1.amazonaws.com/4832/20230720/main.jpg');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">Bervistay hotel</h1>
+                    <h3>location: pune, 5-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 24/7</h3>
+                    <h3>address: RBI bank road</h3>
+                    <h3>cost:600rs per day</h3>
+                    no.of rooms:<input type="number" id="n1"><br><br>
+                    Date:<input type="date" id="d1">
+
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt1" onclick="ck('n1','bt1','d1',1,'p1')">book room</button>
+                    <p id="p1"></p>
+                </div>
+            </div>
+            <div class="card" style="background-image: url('https://media.radissonhotels.net/image/radisson-blu-hotel-atria-bengaluru/exterior/16256-116518-f65028817_3xl.jpg?impolicy=HomeHero');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">Radisson hotel</h1>
+                    <h3>location: patna, 5-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 24/7</h3>
+                    <h3>address: near NIMHANS hospital</h3>
+                    <h3>cost:1000rs per day</h3>
+                    no.of rooms:<input type="number" id="n2"><br><br>
+                    Date:<input type="date" id="d2">
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt2" onclick="ck('n2','bt2','d2',2,'p2')">book room</button>
+                    <p id="p2"></p>
+
+                </div>
+            </div>
+            <div class="card" style="background-image: url('https://www.marriott.com/content/dam/marriott-leisure/destinations/hero/asia/india/bengaluru/IndiaBengaluru_hero_destinations.jpg');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">Marriott hotel</h1>
+                    <h3>location: mumbai, 5-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 24/7</h3>
+                    <h3>address: near NIMHANS hospital</h3>
+                    <h3>cost:800rs per day</h3>
+                    no.of rooms:<input type="number" id="n3"><br><br>
+                    Date:<input type="date" id="d3">
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt3" onclick="ck('n3','bt3','d3',3,'p3')">book room</button>
+                    <p id="p3"></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" style="background-image: url('https://www.peninsula.com/-/media/homepage---andy/exterior-2_1920.jpg');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">Mohali hotel</h1>
+                    <h3>location: Goa, 3-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 24/7</h3>
+                    <h3>address: Mohali area</h3>
+                    no.of rooms:<input type="number" id="n4"><br><br>
+                   Date:<input type="date" id="d4">
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt4" onclick="ck('n4','bt4','d4',4,'p4')">book room</button>
+                    <p id="p4"></p>
+
+                </div>
+            </div>
+            <div class="card" style="background-image: url('https://www.kayak.co.in/rimg/himg/ab/64/d9/expediav2-38713-6584af-750938.jpg?width=720&height=576&crop=true');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">E-central hotel</h1>
+                    <h3>location: Delhi, 3-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 6 am to 12 pm</h3>
+                    <h3>address: near Fassal area</h3>
+                    no.of rooms:<input type="number" id="n5"><br><br>
+                    Date:<input type="date" id="d5">
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt5" onclick="ck('n5','bt5','d5',5,'p5')">book room</button>
+                    <p id="p5"></p>
+
+                </div>
+            </div>
+            <div class="card" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg');">
+                <div class="about">
+                    <h1 style="font-family: serif;color:#fee140">Taj Mahal hotel</h1>
+                    <h3>location: Mumbai, 5-star hotel, A/C & non-A/C</h3>
+                    <h3>availability: 24/7</h3>
+                    <h3>address: Colaba area</h3>
+                    <h3>cost:6000rs per day</h3>
+                    no.of rooms<input type="number" id="n6"><br><br>
+                    Date:<input type="date" id="d6">
+                    <button style="width: 15vw; height: 8vh; border-radius: 10%; text-align: center; background-color: #00bcd4; margin-left: 20%; padding-bottom: 20px;" id="bt6" onclick="ck('n6','bt6','d6',6,'p6')">book room</button>
+                    <p id="p6"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="practic.js"></script>
+</body>
+</html>
