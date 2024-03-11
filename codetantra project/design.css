@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to bottom, #fee140, #fa709a);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #00796b;
+    font-family: cursive;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin-top: 10%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 3px #616161;
+    position: relative;
+}
+
+.about {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(109, 76, 65, 0.4);
+    clip-path: inset(99.9% 0% 0% 0%);
+    transition: 2s;
+    color: #ffffff;
+}
+
+.card:hover .about {
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10%;
+}
+input
+{width:10vw;}
+p
+{
+    display:none;
+}
